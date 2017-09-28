@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".github">
+      </df>
+      <df name=".tx">
+      </df>
+      <df name="build-aux">
+        <df name="m4">
+        </df>
+      </df>
+      <df name="contrib">
+        <df name="debian">
+          <df name="examples">
+          </df>
+          <df name="patches">
+          </df>
+          <df name="source">
+          </df>
+        </df>
+        <df name="devtools">
+        </df>
+        <df name="gitian-descriptors">
+        </df>
+        <df name="gitian-keys">
+        </df>
+        <df name="init">
+        </df>
+        <df name="linearize">
+        </df>
+        <df name="macdeploy">
+        </df>
+        <df name="qos">
+        </df>
+        <df name="rpm">
+        </df>
+        <df name="seeds">
+        </df>
+        <df name="spendfrom">
+        </df>
+        <df name="testgen">
+        </df>
+        <df name="verify-commits">
+        </df>
+        <df name="verifybinaries">
+        </df>
+        <df name="zmq">
+        </df>
+      </df>
+      <df name="depends">
+        <df name="builders">
+        </df>
+        <df name="hosts">
+        </df>
+        <df name="packages">
+        </df>
+        <df name="patches">
+          <df name="native_biplist">
+          </df>
+          <df name="native_cdrkit">
+          </df>
+          <df name="native_mac_alias">
+          </df>
+          <df name="qt">
+          </df>
+          <df name="zeromq">
+          </df>
+        </df>
+      </df>
+      <df name="doc">
+        <df name="gitian-building">
+        </df>
+        <df name="man">
+        </df>
+        <df name="matrixcoin-release-notes">
+        </df>
+        <df name="release-notes">
+        </df>
+      </df>
+      <df name="qa">
+        <df name="pull-tester">
+        </df>
+        <df name="rpc-tests">
+          <df name="test_framework">
+          </df>
+        </df>
+      </df>
+      <df name="share">
+        <df name="certs">
+        </df>
+        <df name="pixmaps">
+        </df>
+        <df name="qt">
+        </df>
+        <df name="rpcuser">
+        </df>
+      </df>
+      <df name="src">
+        <df name="bench">
+          <df name="data">
+          </df>
+          <in>Examples.cpp</in>
+          <in>base58.cpp</in>
+          <in>bench.cpp</in>
+          <in>bench_bitcoin.cpp</in>
+          <in>ccoins_caching.cpp</in>
+          <in>checkblock.cpp</in>
+          <in>checkqueue.cpp</in>
+          <in>coin_selection.cpp</in>
+          <in>crypto_hash.cpp</in>
+          <in>lockedpool.cpp</in>
+          <in>mempool_eviction.cpp</in>
+          <in>perf.cpp</in>
+          <in>rollingbloom.cpp</in>
+          <in>verify_script.cpp</in>
+        </df>
+        <df name="compat">
+          <in>glibc_compat.cpp</in>
+          <in>glibc_sanity.cpp</in>
+          <in>glibcxx_sanity.cpp</in>
+          <in>strnlen.cpp</in>
+        </df>
+        <df name="config">
+        </df>
+        <df name="consensus">
+          <in>merkle.cpp</in>
+        </df>
+        <df name="crypto">
+          <df name="ctaes">
+            <in>bench.c</in>
+            <in>ctaes.c</in>
+            <in>test.c</in>
+          </df>
+          <in>aes.cpp</in>
+          <in>hmac_sha256.cpp</in>
+          <in>hmac_sha512.cpp</in>
+          <in>ripemd160.cpp</in>
+          <in>scrypt-sse2.cpp</in>
+          <in>scrypt.cpp</in>
+          <in>sha1.cpp</in>
+          <in>sha256.cpp</in>
+          <in>sha512.cpp</in>
+        </df>
+        <df name="leveldb">
+          <df name="db">
+            <in>autocompact_test.cc</in>
+            <in>builder.cc</in>
+            <in>c.cc</in>
+            <in>c_test.c</in>
+            <in>corruption_test.cc</in>
+            <in>db_bench.cc</in>
+            <in>db_impl.cc</in>
+            <in>db_iter.cc</in>
+            <in>db_test.cc</in>
+            <in>dbformat.cc</in>
+            <in>dbformat_test.cc</in>
+            <in>dumpfile.cc</in>
+            <in>fault_injection_test.cc</in>
+            <in>filename.cc</in>
+            <in>filename_test.cc</in>
+            <in>leveldbutil.cc</in>
+            <in>log_reader.cc</in>
+            <in>log_test.cc</in>
+            <in>log_writer.cc</in>
+            <in>memtable.cc</in>
+            <in>recovery_test.cc</in>
+            <in>repair.cc</in>
+            <in>skiplist_test.cc</in>
+            <in>table_cache.cc</in>
+            <in>version_edit.cc</in>
+            <in>version_edit_test.cc</in>
+            <in>version_set.cc</in>
+            <in>version_set_test.cc</in>
+            <in>write_batch.cc</in>
+            <in>write_batch_test.cc</in>
+          </df>
+          <df name="doc">
+            <df name="bench">
+              <in>db_bench_sqlite3.cc</in>
+              <in>db_bench_tree_db.cc</in>
+            </df>
+          </df>
+          <df name="helpers">
+            <df name="memenv">
+              <in>memenv.cc</in>
+              <in>memenv_test.cc</in>
+            </df>
+          </df>
+          <df name="include">
+            <df name="leveldb">
+            </df>
+          </df>
+          <df name="issues">
+            <in>issue178_test.cc</in>
+            <in>issue200_test.cc</in>
+          </df>
+          <df name="port">
+            <df name="win">
+            </df>
+            <in>port_posix.cc</in>
+            <in>port_win.cc</in>
+          </df>
+          <df name="table">
+            <in>block.cc</in>
+            <in>block_builder.cc</in>
+            <in>filter_block.cc</in>
+            <in>filter_block_test.cc</in>
+            <in>format.cc</in>
+            <in>iterator.cc</in>
+            <in>merger.cc</in>
+            <in>table.cc</in>
+            <in>table_builder.cc</in>
+            <in>table_test.cc</in>
+            <in>two_level_iterator.cc</in>
+          </df>
+          <df name="util">
+            <in>arena.cc</in>
+            <in>arena_test.cc</in>
+            <in>bloom.cc</in>
+            <in>bloom_test.cc</in>
+            <in>cache.cc</in>
+            <in>cache_test.cc</in>
+            <in>coding.cc</in>
+            <in>coding_test.cc</in>
+            <in>comparator.cc</in>
+            <in>crc32c.cc</in>
+            <in>crc32c_test.cc</in>
+            <in>env.cc</in>
+            <in>env_posix.cc</in>
+            <in>env_test.cc</in>
+            <in>env_win.cc</in>
+            <in>filter_policy.cc</in>
+            <in>hash.cc</in>
+            <in>hash_test.cc</in>
+            <in>histogram.cc</in>
+            <in>logging.cc</in>
+            <in>options.cc</in>
+            <in>status.cc</in>
+            <in>testharness.cc</in>
+            <in>testutil.cc</in>
+          </df>
+        </df>
+        <df name="obj">
+        </df>
+        <df name="obj-test">
+        </df>
+        <df name="policy">
+          <in>fees.cpp</in>
+          <in>policy.cpp</in>
+          <in>rbf.cpp</in>
+        </df>
+        <df name="primitives">
+          <in>block.cpp</in>
+          <in>transaction.cpp</in>
+        </df>
+        <df name="qt">
+          <df name="forms">
+          </df>
+          <df name="locale">
+          </df>
+          <df name="res">
+            <df name="icons">
+            </df>
+            <df name="movies">
+            </df>
+            <df name="src">
+            </df>
+          </df>
+          <df name="test">
+            <in>compattests.cpp</in>
+            <in>paymentservertests.cpp</in>
+            <in>rpcnestedtests.cpp</in>
+            <in>test_main.cpp</in>
+            <in>uritests.cpp</in>
+          </df>
+          <in>addressbookpage.cpp</in>
+          <in>addresstablemodel.cpp</in>
+          <in>askpassphrasedialog.cpp</in>
+          <in>bantablemodel.cpp</in>
+          <in>bitcoin.cpp</in>
+          <in>bitcoinaddressvalidator.cpp</in>
+          <in>bitcoinamountfield.cpp</in>
+          <in>bitcoingui.cpp</in>
+          <in>bitcoinstrings.cpp</in>
+          <in>bitcoinunits.cpp</in>
+          <in>clientmodel.cpp</in>
+          <in>coincontroldialog.cpp</in>
+          <in>coincontroltreewidget.cpp</in>
+          <in>csvmodelwriter.cpp</in>
+          <in>editaddressdialog.cpp</in>
+          <in>guiutil.cpp</in>
+          <in>intro.cpp</in>
+          <in>macdockiconhandler.mm</in>
+          <in>macnotificationhandler.mm</in>
+          <in>modaloverlay.cpp</in>
+          <in>networkstyle.cpp</in>
+          <in>notificator.cpp</in>
+          <in>openuridialog.cpp</in>
+          <in>optionsdialog.cpp</in>
+          <in>optionsmodel.cpp</in>
+          <in>overviewpage.cpp</in>
+          <in>paymentrequestplus.cpp</in>
+          <in>paymentserver.cpp</in>
+          <in>peertablemodel.cpp</in>
+          <in>platformstyle.cpp</in>
+          <in>qvalidatedlineedit.cpp</in>
+          <in>qvaluecombobox.cpp</in>
+          <in>receivecoinsdialog.cpp</in>
+          <in>receiverequestdialog.cpp</in>
+          <in>recentrequeststablemodel.cpp</in>
+          <in>rpcconsole.cpp</in>
+          <in>sendcoinsdialog.cpp</in>
+          <in>sendcoinsentry.cpp</in>
+          <in>signverifymessagedialog.cpp</in>
+          <in>splashscreen.cpp</in>
+          <in>trafficgraphwidget.cpp</in>
+          <in>transactiondesc.cpp</in>
+          <in>transactiondescdialog.cpp</in>
+          <in>transactionfilterproxy.cpp</in>
+          <in>transactionrecord.cpp</in>
+          <in>transactiontablemodel.cpp</in>
+          <in>transactionview.cpp</in>
+          <in>utilitydialog.cpp</in>
+          <in>walletframe.cpp</in>
+          <in>walletmodel.cpp</in>
+          <in>walletmodeltransaction.cpp</in>
+          <in>walletview.cpp</in>
+          <in>winshutdownmonitor.cpp</in>
+        </df>
+        <df name="rpc">
+          <in>blockchain.cpp</in>
+          <in>client.cpp</in>
+          <in>mining.cpp</in>
+          <in>misc.cpp</in>
+          <in>net.cpp</in>
+          <in>protocol.cpp</in>
+          <in>rawtransaction.cpp</in>
+          <in>server.cpp</in>
+        </df>
+        <df name="script">
+          <in>bitcoinconsensus.cpp</in>
+          <in>interpreter.cpp</in>
+          <in>ismine.cpp</in>
+          <in>script.cpp</in>
+          <in>script_error.cpp</in>
+          <in>sigcache.cpp</in>
+          <in>sign.cpp</in>
+          <in>standard.cpp</in>
+        </df>
+        <df name="secp256k1">
+          <df name="build-aux">
+            <df name="m4">
+            </df>
+          </df>
+          <df name="contrib">
+            <in>lax_der_parsing.c</in>
+            <in>lax_der_privatekey_parsing.c</in>
+          </df>
+          <df name="include">
+          </df>
+          <df name="obj">
+          </df>
+          <df name="sage">
+          </df>
+          <df name="src">
+            <df name="asm">
+              <in>field_10x26_arm.s</in>
+            </df>
+            <df name="java">
+              <df name="org">
+                <df name="bitcoin">
+                </df>
+              </df>
+              <in>org_bitcoin_NativeSecp256k1.c</in>
+              <in>org_bitcoin_Secp256k1Context.c</in>
+            </df>
+            <df name="modules">
+              <df name="ecdh">
+              </df>
+              <df name="recovery">
+              </df>
+            </df>
+            <in>bench_ecdh.c</in>
+            <in>bench_internal.c</in>
+            <in>bench_recover.c</in>
+            <in>bench_schnorr_verify.c</in>
+            <in>bench_sign.c</in>
+            <in>bench_verify.c</in>
+            <in>gen_context.c</in>
+            <in>secp256k1.c</in>
+            <in>tests.c</in>
+            <in>tests_exhaustive.c</in>
+          </df>
+        </df>
+        <df name="support">
+          <df name="allocators">
+          </df>
+          <in>cleanse.cpp</in>
+          <in>lockedpool.cpp</in>
+        </df>
+        <df name="test">
+          <df name="data">
+          </df>
+          <in>DoS_tests.cpp</in>
+          <in>addrman_tests.cpp</in>
+          <in>allocator_tests.cpp</in>
+          <in>amount_tests.cpp</in>
+          <in>arith_uint256_tests.cpp</in>
+          <in>base32_tests.cpp</in>
+          <in>base58_tests.cpp</in>
+          <in>base64_tests.cpp</in>
+          <in>bip32_tests.cpp</in>
+          <in>blockencodings_tests.cpp</in>
+          <in>bloom_tests.cpp</in>
+          <in>bswap_tests.cpp</in>
+          <in>coins_tests.cpp</in>
+          <in>compress_tests.cpp</in>
+          <in>crypto_tests.cpp</in>
+          <in>cuckoocache_tests.cpp</in>
+          <in>dbwrapper_tests.cpp</in>
+          <in>getarg_tests.cpp</in>
+          <in>hash_tests.cpp</in>
+          <in>key_tests.cpp</in>
+          <in>limitedmap_tests.cpp</in>
+          <in>main_tests.cpp</in>
+          <in>mempool_tests.cpp</in>
+          <in>merkle_tests.cpp</in>
+          <in>miner_tests.cpp</in>
+          <in>multisig_tests.cpp</in>
+          <in>net_tests.cpp</in>
+          <in>netbase_tests.cpp</in>
+          <in>pmt_tests.cpp</in>
+          <in>policyestimator_tests.cpp</in>
+          <in>pow_tests.cpp</in>
+          <in>prevector_tests.cpp</in>
+          <in>raii_event_tests.cpp</in>
+          <in>reverselock_tests.cpp</in>
+          <in>rpc_tests.cpp</in>
+          <in>sanity_tests.cpp</in>
+          <in>scheduler_tests.cpp</in>
+          <in>script_P2SH_tests.cpp</in>
+          <in>script_tests.cpp</in>
+          <in>scriptnum_tests.cpp</in>
+          <in>scrypt_tests.cpp</in>
+          <in>serialize_tests.cpp</in>
+          <in>sighash_tests.cpp</in>
+          <in>sigopcount_tests.cpp</in>
+          <in>skiplist_tests.cpp</in>
+          <in>streams_tests.cpp</in>
+          <in>test_bitcoin.cpp</in>
+          <in>test_bitcoin_fuzzy.cpp</in>
+          <in>testutil.cpp</in>
+          <in>timedata_tests.cpp</in>
+          <in>transaction_tests.cpp</in>
+          <in>txvalidationcache_tests.cpp</in>
+          <in>uint256_tests.cpp</in>
+          <in>univalue_tests.cpp</in>
+          <in>util_tests.cpp</in>
+          <in>versionbits_tests.cpp</in>
+        </df>
+        <df name="univalue">
+          <df name="build-aux">
+            <df name="m4">
+            </df>
+          </df>
+          <df name="gen">
+            <in>gen.cpp</in>
+          </df>
+          <df name="include">
+          </df>
+          <df name="lib">
+            <in>univalue.cpp</in>
+            <in>univalue_read.cpp</in>
+            <in>univalue_write.cpp</in>
+          </df>
+          <df name="pc">
+          </df>
+          <df name="test">
+            <in>unitester.cpp</in>
+          </df>
+        </df>
+        <df name="wallet">
+          <df name="test">
+            <in>accounting_tests.cpp</in>
+            <in>crypto_tests.cpp</in>
+            <in>wallet_test_fixture.cpp</in>
+            <in>wallet_tests.cpp</in>
+          </df>
+          <in>crypter.cpp</in>
+          <in>db.cpp</in>
+          <in>rpcdump.cpp</in>
+          <in>rpcwallet.cpp</in>
+          <in>wallet.cpp</in>
+          <in>walletdb.cpp</in>
+        </df>
+        <df name="zmq">
+          <in>zmqabstractnotifier.cpp</in>
+          <in>zmqnotificationinterface.cpp</in>
+          <in>zmqpublishnotifier.cpp</in>
+        </df>
+        <in>addrdb.cpp</in>
+        <in>addrman.cpp</in>
+        <in>amount.cpp</in>
+        <in>arith_uint256.cpp</in>
+        <in>base58.cpp</in>
+        <in>bitcoin-cli.cpp</in>
+        <in>bitcoin-tx.cpp</in>
+        <in>bitcoind.cpp</in>
+        <in>blockencodings.cpp</in>
+        <in>bloom.cpp</in>
+        <in>chain.cpp</in>
+        <in>chainparams.cpp</in>
+        <in>chainparamsbase.cpp</in>
+        <in>checkpoints.cpp</in>
+        <in>clientversion.cpp</in>
+        <in>coins.cpp</in>
+        <in>compressor.cpp</in>
+        <in>core_read.cpp</in>
+        <in>core_write.cpp</in>
+        <in>dbwrapper.cpp</in>
+        <in>hash.cpp</in>
+        <in>httprpc.cpp</in>
+        <in>httpserver.cpp</in>
+        <in>init.cpp</in>
+        <in>key.cpp</in>
+        <in>keystore.cpp</in>
+        <in>merkleblock.cpp</in>
+        <in>miner.cpp</in>
+        <in>net.cpp</in>
+        <in>net_processing.cpp</in>
+        <in>netaddress.cpp</in>
+        <in>netbase.cpp</in>
+        <in>noui.cpp</in>
+        <in>pow.cpp</in>
+        <in>protocol.cpp</in>
+        <in>pubkey.cpp</in>
+        <in>random.cpp</in>
+        <in>rest.cpp</in>
+        <in>scheduler.cpp</in>
+        <in>sync.cpp</in>
+        <in>threadinterrupt.cpp</in>
+        <in>timedata.cpp</in>
+        <in>torcontrol.cpp</in>
+        <in>txdb.cpp</in>
+        <in>txmempool.cpp</in>
+        <in>ui_interface.cpp</in>
+        <in>uint256.cpp</in>
+        <in>util.cpp</in>
+        <in>utilmoneystr.cpp</in>
+        <in>utilstrencodings.cpp</in>
+        <in>utiltime.cpp</in>
+        <in>validation.cpp</in>
+        <in>validationinterface.cpp</in>
+        <in>versionbits.cpp</in>
+        <in>warnings.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
