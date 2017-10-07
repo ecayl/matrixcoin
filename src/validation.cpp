@@ -941,7 +941,7 @@ bool AcceptToMemoryPoolWorker(CTxMemPool& pool, CValidationState& state, const C
         // Remove conflicting transactions from the mempool
 
         BOOST_FOREACH(const CTxMemPool::txiter it, allConflicting) {
-            LogPrint("mempool", "replacing tx %s with %s for %s MSP additional fees, %d delta bytes\n",
+            LogPrint("mempool", "replacing tx %s with %s for %s MATRIX additional fees, %d delta bytes\n",
                     it->GetTx().GetHash().ToString(),
                     hash.ToString(),
                     FormatMoney(nModifiedFees - nConflictingFees),
